@@ -1,0 +1,119 @@
+{
+  "id": "26c4cb61-45a1-4881-bb83-8739993b9d25",
+  "version": "2.0",
+  "name": "Easter egg",
+  "url": "http://blog.csssr.ru",
+  "tests": [{
+    "id": "9be4c91c-bc3a-4588-b82d-b1bd4c7fcf5d",
+    "name": "Easter egg",
+    "commands": [{
+      "id": "91ff29f4-cad5-4eab-82ba-5dce29e15184",
+      "comment": "",
+      "command": "open",
+      "target": "/qa-engineer/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bda14ad3-b911-493c-8992-fe8e2f504d78",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e600f05-0039-40ee-ae6d-2eed9d479044",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ВНИКАТЬ В ДЕТАЛИ ПРОЕКТОВ",
+      "targets": [
+        ["linkText=ВНИКАТЬ В ДЕТАЛИ ПРОЕКТОВ", "linkText"],
+        ["css=.graphs-details > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ВНИКАТЬ В ДЕТАЛИ ПРОЕКТОВ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'ВНИКАТЬ В ДЕТАЛИ ПРОЕКТОВ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f118655a-c250-47c2-9453-e716c8445aa2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=СОПРОВОЖДАТЬ ПРОЕКТЫ",
+      "targets": [
+        ["linkText=СОПРОВОЖДАТЬ ПРОЕКТЫ", "linkText"],
+        ["css=.graphs-support > a", "css:finder"],
+        ["xpath=//a[contains(text(),'СОПРОВОЖДАТЬ ПРОЕКТЫ')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'СОПРОВОЖДАТЬ ПРОЕКТЫ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b68e9f1-47c5-450e-b62f-a8a6318ca3f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=НАХОДИТЬ НЕСОВЕРШЕНСТВА",
+      "targets": [
+        ["linkText=НАХОДИТЬ НЕСОВЕРШЕНСТВА", "linkText"],
+        ["css=.graphs-errors > a", "css:finder"],
+        ["xpath=//a[contains(text(),'НАХОДИТЬ НЕСОВЕРШЕНСТВА')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'НАХОДИТЬ НЕСОВЕРШЕНСТВА')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37e0c8f0-b913-4275-a356-96c87693bfe0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=РАБОТАТЬ С ФАЙЛАМИ ПРОЕКТОВ",
+      "targets": [
+        ["linkText=РАБОТАТЬ С ФАЙЛАМИ ПРОЕКТОВ", "linkText"],
+        ["css=.graphs-files > a", "css:finder"],
+        ["xpath=//a[contains(text(),'РАБОТАТЬ С ФАЙЛАМИ ПРОЕКТОВ')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'РАБОТАТЬ С ФАЙЛАМИ ПРОЕКТОВ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "940daf09-d9d3-4cd9-a646-82df5e89af11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ВНИКАТЬ В ДЕТАЛИ ПРОЕКТОВ",
+      "targets": [
+        ["linkText=ВНИКАТЬ В ДЕТАЛИ ПРОЕКТОВ", "linkText"],
+        ["css=.graphs-details > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ВНИКАТЬ В ДЕТАЛИ ПРОЕКТОВ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'ВНИКАТЬ В ДЕТАЛИ ПРОЕКТОВ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13909607-a419-4c49-b9a0-3456a7ff3f19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=НАХОДИТЬ НЕСОВЕРШЕНСТВА",
+      "targets": [
+        ["linkText=НАХОДИТЬ НЕСОВЕРШЕНСТВА", "linkText"],
+        ["css=.graphs-errors > a", "css:finder"],
+        ["xpath=//a[contains(text(),'НАХОДИТЬ НЕСОВЕРШЕНСТВА')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'НАХОДИТЬ НЕСОВЕРШЕНСТВА')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8621b718-cd9c-4318-8a40-a29ae047967f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9be4c91c-bc3a-4588-b82d-b1bd4c7fcf5d"]
+  }],
+  "urls": ["http://blog.csssr.ru/"],
+  "plugins": []
+}
